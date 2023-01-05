@@ -1,0 +1,22 @@
+package reverseNumber;
+
+import java.util.Arrays;
+
+public class ReverseStringAllWords {
+
+	public static void main(String[] args) {
+		
+		String s1="Saurabha Raju Pawade";
+		String s2=" ";
+		String[] s3=s1.split(s2);
+		
+		for(int i=s3.length-1;i>=0;i--)
+		{
+			s2=s2+s3[i]+" ";
+		}
+		System.out.println(s2);
+		
+	
+	
+	}
+}
